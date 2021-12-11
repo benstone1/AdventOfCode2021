@@ -15,13 +15,13 @@
 		F280F46A27580E040004E0CA /* Advent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F46927580E040004E0CA /* Advent.swift */; };
 		F280F46C27580E2B0004E0CA /* AdventGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F46B27580E2B0004E0CA /* AdventGenerator.swift */; };
 		F280F46E27580E4F0004E0CA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F46D27580E4F0004E0CA /* Utilities.swift */; };
-		F280F47027580EA50004E0CA /* AdventOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F46F27580EA50004E0CA /* AdventOne.swift */; };
+		F280F47027580EA50004E0CA /* Advent01.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F46F27580EA50004E0CA /* Advent01.swift */; };
 		F280F47327580F700004E0CA /* 1-input-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F47227580F700004E0CA /* 1-input-1.txt */; };
 		F280F47527580F930004E0CA /* 1-input-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F47427580F930004E0CA /* 1-input-2.txt */; };
 		F280F47727580FC00004E0CA /* 1-prompt-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F47627580FC00004E0CA /* 1-prompt-1.txt */; };
 		F280F47927580FED0004E0CA /* 1-prompt-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F47827580FED0004E0CA /* 1-prompt-2.txt */; };
 		F280F4F5275911940004E0CA /* 2-input-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F4F4275911940004E0CA /* 2-input-1.txt */; };
-		F280F4F8275911BA0004E0CA /* AdventTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F4F7275911BA0004E0CA /* AdventTwo.swift */; };
+		F280F4F8275911BA0004E0CA /* Advent02.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F4F7275911BA0004E0CA /* Advent02.swift */; };
 		F280F4FD275916150004E0CA /* 2-input-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F4FC275916150004E0CA /* 2-input-2.txt */; };
 		F280F4FE275917110004E0CA /* 2-prompt-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F4F9275914BF0004E0CA /* 2-prompt-2.txt */; };
 		F280F4FF275917340004E0CA /* 2-prompt-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F4F32759116F0004E0CA /* 2-prompt-1.txt */; };
@@ -29,9 +29,9 @@
 		F280F505275A63770004E0CA /* 3-prompt-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F504275A63770004E0CA /* 3-prompt-1.txt */; };
 		F280F507275A63880004E0CA /* 3-input-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F506275A63880004E0CA /* 3-input-2.txt */; };
 		F280F509275A63970004E0CA /* 3-prompt-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F508275A63970004E0CA /* 3-prompt-2.txt */; };
-		F280F50C275A63D00004E0CA /* AdventThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F50B275A63D00004E0CA /* AdventThree.swift */; };
+		F280F50C275A63D00004E0CA /* Advent03.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F50B275A63D00004E0CA /* Advent03.swift */; };
 		F280F50E275A68380004E0CA /* 3-input-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F50D275A68380004E0CA /* 3-input-1.txt */; };
-		F280F510275BF7D20004E0CA /* AdventFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F50F275BF7D10004E0CA /* AdventFour.swift */; };
+		F280F510275BF7D20004E0CA /* Advent04.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F50F275BF7D10004E0CA /* Advent04.swift */; };
 		F280F512275BF8110004E0CA /* 4-input-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F511275BF8110004E0CA /* 4-input-1.txt */; };
 		F280F515275BF8310004E0CA /* 4-input-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F514275BF8310004E0CA /* 4-input-2.txt */; };
 		F280F517275BF8420004E0CA /* 4-prompt-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F516275BF8420004E0CA /* 4-prompt-1.txt */; };
@@ -40,8 +40,18 @@
 		F280F51D275C80EA0004E0CA /* 5-prompt-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F51C275C80EA0004E0CA /* 5-prompt-1.txt */; };
 		F280F51F275C80F70004E0CA /* 5-input-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F51E275C80F70004E0CA /* 5-input-2.txt */; };
 		F280F521275C81070004E0CA /* 5-prompt-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F280F520275C81070004E0CA /* 5-prompt-2.txt */; };
-		F280F524275C81430004E0CA /* AdventFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F523275C81430004E0CA /* AdventFive.swift */; };
-		F2ED6D05275E5B3A00B464D2 /* AdventSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED6D04275E5B3A00B464D2 /* AdventSix.swift */; };
+		F280F524275C81430004E0CA /* Advent05.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F523275C81430004E0CA /* Advent05.swift */; };
+		F2B4DE722763ECB500E3A5A6 /* 10-input-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2B4DE712763ECB500E3A5A6 /* 10-input-1.txt */; };
+		F2B4DE742763ECBE00E3A5A6 /* 10-input-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2B4DE732763ECBE00E3A5A6 /* 10-input-2.txt */; };
+		F2B4DE762763ECC800E3A5A6 /* 10-prompt-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2B4DE752763ECC800E3A5A6 /* 10-prompt-2.txt */; };
+		F2B4DE782763ECD000E3A5A6 /* 10-prompt-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2B4DE772763ECD000E3A5A6 /* 10-prompt-1.txt */; };
+		F2B4DE7A2763ECED00E3A5A6 /* Advent10.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B4DE792763ECED00E3A5A6 /* Advent10.swift */; };
+		F2B4DE7D2764E98200E3A5A6 /* 11-input-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2B4DE7C2764E98200E3A5A6 /* 11-input-1.txt */; };
+		F2B4DE7F2764E98C00E3A5A6 /* 11-input-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2B4DE7E2764E98C00E3A5A6 /* 11-input-2.txt */; };
+		F2B4DE812764E9A100E3A5A6 /* 11-prompt-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2B4DE802764E9A100E3A5A6 /* 11-prompt-1.txt */; };
+		F2B4DE832764E9AC00E3A5A6 /* 11-prompt-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2B4DE822764E9AC00E3A5A6 /* 11-prompt-2.txt */; };
+		F2B4DE852764E9CE00E3A5A6 /* Advent11.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B4DE842764E9CE00E3A5A6 /* Advent11.swift */; };
+		F2ED6D05275E5B3A00B464D2 /* Advent06.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED6D04275E5B3A00B464D2 /* Advent06.swift */; };
 		F2ED6D07275E5B6800B464D2 /* 6-input-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2ED6D06275E5B6800B464D2 /* 6-input-1.txt */; };
 		F2ED6D09275E5B7600B464D2 /* 6-input-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2ED6D08275E5B7600B464D2 /* 6-input-2.txt */; };
 		F2ED6D0B275E5B8400B464D2 /* 6-prompt-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2ED6D0A275E5B8400B464D2 /* 6-prompt-1.txt */; };
@@ -50,17 +60,17 @@
 		F2ED6D12275FA34B00B464D2 /* 7-input-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2ED6D11275FA34A00B464D2 /* 7-input-2.txt */; };
 		F2ED6D14275FA35400B464D2 /* 7-prompt-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2ED6D13275FA35400B464D2 /* 7-prompt-2.txt */; };
 		F2ED6D16275FA35C00B464D2 /* 7-prompt-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2ED6D15275FA35C00B464D2 /* 7-prompt-1.txt */; };
-		F2ED6D19275FA39200B464D2 /* AdventSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED6D18275FA39200B464D2 /* AdventSeven.swift */; };
+		F2ED6D19275FA39200B464D2 /* Advent07.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED6D18275FA39200B464D2 /* Advent07.swift */; };
 		F2ED6D1B27610C4F00B464D2 /* 8-input-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2ED6D1A27610C4E00B464D2 /* 8-input-1.txt */; };
 		F2ED6D1D27610C6300B464D2 /* 8-input-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2ED6D1C27610C6300B464D2 /* 8-input-2.txt */; };
 		F2ED6D1F27610C7100B464D2 /* 8-prompt-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2ED6D1E27610C7100B464D2 /* 8-prompt-1.txt */; };
 		F2ED6D2127610C7A00B464D2 /* 8-prompt-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2ED6D2027610C7A00B464D2 /* 8-prompt-2.txt */; };
-		F2ED6D2327610CBF00B464D2 /* AdventEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED6D2227610CBF00B464D2 /* AdventEight.swift */; };
+		F2ED6D2327610CBF00B464D2 /* Advent08.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED6D2227610CBF00B464D2 /* Advent08.swift */; };
 		F2FB49322762A17700314E17 /* 9-input-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2FB49312762A17700314E17 /* 9-input-1.txt */; };
 		F2FB49342762A18300314E17 /* 9-input-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2FB49332762A18300314E17 /* 9-input-2.txt */; };
 		F2FB49362762A19300314E17 /* 9-prompt-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2FB49352762A19300314E17 /* 9-prompt-1.txt */; };
 		F2FB49382762A19A00314E17 /* 9-prompt-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2FB49372762A19A00314E17 /* 9-prompt-2.txt */; };
-		F2FB493A2762A1C300314E17 /* AdventNine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB49392762A1C300314E17 /* AdventNine.swift */; };
+		F2FB493A2762A1C300314E17 /* Advent09.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB49392762A1C300314E17 /* Advent09.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,23 +83,23 @@
 		F280F46927580E040004E0CA /* Advent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent.swift; sourceTree = "<group>"; };
 		F280F46B27580E2B0004E0CA /* AdventGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventGenerator.swift; sourceTree = "<group>"; };
 		F280F46D27580E4F0004E0CA /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		F280F46F27580EA50004E0CA /* AdventOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOne.swift; sourceTree = "<group>"; };
+		F280F46F27580EA50004E0CA /* Advent01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent01.swift; sourceTree = "<group>"; };
 		F280F47227580F700004E0CA /* 1-input-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "1-input-1.txt"; sourceTree = "<group>"; };
 		F280F47427580F930004E0CA /* 1-input-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "1-input-2.txt"; sourceTree = "<group>"; };
 		F280F47627580FC00004E0CA /* 1-prompt-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "1-prompt-1.txt"; sourceTree = "<group>"; };
 		F280F47827580FED0004E0CA /* 1-prompt-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "1-prompt-2.txt"; sourceTree = "<group>"; };
 		F280F4F32759116F0004E0CA /* 2-prompt-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "2-prompt-1.txt"; sourceTree = "<group>"; };
 		F280F4F4275911940004E0CA /* 2-input-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "2-input-1.txt"; sourceTree = "<group>"; };
-		F280F4F7275911BA0004E0CA /* AdventTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventTwo.swift; sourceTree = "<group>"; };
+		F280F4F7275911BA0004E0CA /* Advent02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent02.swift; sourceTree = "<group>"; };
 		F280F4F9275914BF0004E0CA /* 2-prompt-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "2-prompt-2.txt"; sourceTree = "<group>"; };
 		F280F4FC275916150004E0CA /* 2-input-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "2-input-2.txt"; sourceTree = "<group>"; };
 		F280F50027593CB70004E0CA /* PromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptView.swift; sourceTree = "<group>"; };
 		F280F504275A63770004E0CA /* 3-prompt-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3-prompt-1.txt"; sourceTree = "<group>"; };
 		F280F506275A63880004E0CA /* 3-input-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3-input-2.txt"; sourceTree = "<group>"; };
 		F280F508275A63970004E0CA /* 3-prompt-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3-prompt-2.txt"; sourceTree = "<group>"; };
-		F280F50B275A63D00004E0CA /* AdventThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventThree.swift; sourceTree = "<group>"; };
+		F280F50B275A63D00004E0CA /* Advent03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent03.swift; sourceTree = "<group>"; };
 		F280F50D275A68380004E0CA /* 3-input-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3-input-1.txt"; sourceTree = "<group>"; };
-		F280F50F275BF7D10004E0CA /* AdventFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventFour.swift; sourceTree = "<group>"; };
+		F280F50F275BF7D10004E0CA /* Advent04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent04.swift; sourceTree = "<group>"; };
 		F280F511275BF8110004E0CA /* 4-input-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "4-input-1.txt"; sourceTree = "<group>"; };
 		F280F514275BF8310004E0CA /* 4-input-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "4-input-2.txt"; sourceTree = "<group>"; };
 		F280F516275BF8420004E0CA /* 4-prompt-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "4-prompt-1.txt"; sourceTree = "<group>"; };
@@ -98,8 +108,18 @@
 		F280F51C275C80EA0004E0CA /* 5-prompt-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "5-prompt-1.txt"; sourceTree = "<group>"; };
 		F280F51E275C80F70004E0CA /* 5-input-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "5-input-2.txt"; sourceTree = "<group>"; };
 		F280F520275C81070004E0CA /* 5-prompt-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "5-prompt-2.txt"; sourceTree = "<group>"; };
-		F280F523275C81430004E0CA /* AdventFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventFive.swift; sourceTree = "<group>"; };
-		F2ED6D04275E5B3A00B464D2 /* AdventSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventSix.swift; sourceTree = "<group>"; };
+		F280F523275C81430004E0CA /* Advent05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent05.swift; sourceTree = "<group>"; };
+		F2B4DE712763ECB500E3A5A6 /* 10-input-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "10-input-1.txt"; sourceTree = "<group>"; };
+		F2B4DE732763ECBE00E3A5A6 /* 10-input-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "10-input-2.txt"; sourceTree = "<group>"; };
+		F2B4DE752763ECC800E3A5A6 /* 10-prompt-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "10-prompt-2.txt"; sourceTree = "<group>"; };
+		F2B4DE772763ECD000E3A5A6 /* 10-prompt-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "10-prompt-1.txt"; sourceTree = "<group>"; };
+		F2B4DE792763ECED00E3A5A6 /* Advent10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent10.swift; sourceTree = "<group>"; };
+		F2B4DE7C2764E98200E3A5A6 /* 11-input-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "11-input-1.txt"; sourceTree = "<group>"; };
+		F2B4DE7E2764E98C00E3A5A6 /* 11-input-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "11-input-2.txt"; sourceTree = "<group>"; };
+		F2B4DE802764E9A100E3A5A6 /* 11-prompt-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "11-prompt-1.txt"; sourceTree = "<group>"; };
+		F2B4DE822764E9AC00E3A5A6 /* 11-prompt-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "11-prompt-2.txt"; sourceTree = "<group>"; };
+		F2B4DE842764E9CE00E3A5A6 /* Advent11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent11.swift; sourceTree = "<group>"; };
+		F2ED6D04275E5B3A00B464D2 /* Advent06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent06.swift; sourceTree = "<group>"; };
 		F2ED6D06275E5B6800B464D2 /* 6-input-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "6-input-1.txt"; sourceTree = "<group>"; };
 		F2ED6D08275E5B7600B464D2 /* 6-input-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "6-input-2.txt"; sourceTree = "<group>"; };
 		F2ED6D0A275E5B8400B464D2 /* 6-prompt-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "6-prompt-1.txt"; sourceTree = "<group>"; };
@@ -108,17 +128,17 @@
 		F2ED6D11275FA34A00B464D2 /* 7-input-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "7-input-2.txt"; sourceTree = "<group>"; };
 		F2ED6D13275FA35400B464D2 /* 7-prompt-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "7-prompt-2.txt"; sourceTree = "<group>"; };
 		F2ED6D15275FA35C00B464D2 /* 7-prompt-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "7-prompt-1.txt"; sourceTree = "<group>"; };
-		F2ED6D18275FA39200B464D2 /* AdventSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventSeven.swift; sourceTree = "<group>"; };
+		F2ED6D18275FA39200B464D2 /* Advent07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent07.swift; sourceTree = "<group>"; };
 		F2ED6D1A27610C4E00B464D2 /* 8-input-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "8-input-1.txt"; sourceTree = "<group>"; };
 		F2ED6D1C27610C6300B464D2 /* 8-input-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "8-input-2.txt"; sourceTree = "<group>"; };
 		F2ED6D1E27610C7100B464D2 /* 8-prompt-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "8-prompt-1.txt"; sourceTree = "<group>"; };
 		F2ED6D2027610C7A00B464D2 /* 8-prompt-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "8-prompt-2.txt"; sourceTree = "<group>"; };
-		F2ED6D2227610CBF00B464D2 /* AdventEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventEight.swift; sourceTree = "<group>"; };
+		F2ED6D2227610CBF00B464D2 /* Advent08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent08.swift; sourceTree = "<group>"; };
 		F2FB49312762A17700314E17 /* 9-input-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "9-input-1.txt"; sourceTree = "<group>"; };
 		F2FB49332762A18300314E17 /* 9-input-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "9-input-2.txt"; sourceTree = "<group>"; };
 		F2FB49352762A19300314E17 /* 9-prompt-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "9-prompt-1.txt"; sourceTree = "<group>"; };
 		F2FB49372762A19A00314E17 /* 9-prompt-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "9-prompt-2.txt"; sourceTree = "<group>"; };
-		F2FB49392762A1C300314E17 /* AdventNine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventNine.swift; sourceTree = "<group>"; };
+		F2FB49392762A1C300314E17 /* Advent09.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent09.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,10 +193,6 @@
 		F280F4672757CD420004E0CA /* Inputs */ = {
 			isa = PBXGroup;
 			children = (
-				F2FB49352762A19300314E17 /* 9-prompt-1.txt */,
-				F2FB49372762A19A00314E17 /* 9-prompt-2.txt */,
-				F2FB49312762A17700314E17 /* 9-input-1.txt */,
-				F2FB49332762A18300314E17 /* 9-input-2.txt */,
 				F280F47A27580FFF0004E0CA /* DayOne */,
 				F280F4F6275911970004E0CA /* DayTwo */,
 				F280F50A275A63C00004E0CA /* DayThree */,
@@ -185,6 +201,9 @@
 				F2ED6D0E275E5BBD00B464D2 /* DaySix */,
 				F2ED6D17275FA36100B464D2 /* DaySeven */,
 				F2FB49302762A14000314E17 /* DayEight */,
+				F2B4DE702763EC4D00E3A5A6 /* DayNine */,
+				F2B4DE7B2764E88F00E3A5A6 /* DayTen */,
+				F2B4DE86276500EE00E3A5A6 /* DayEleven */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -204,15 +223,17 @@
 		F280F47127580EA80004E0CA /* AdventSolutions */ = {
 			isa = PBXGroup;
 			children = (
-				F280F46F27580EA50004E0CA /* AdventOne.swift */,
-				F280F4F7275911BA0004E0CA /* AdventTwo.swift */,
-				F280F50B275A63D00004E0CA /* AdventThree.swift */,
-				F280F50F275BF7D10004E0CA /* AdventFour.swift */,
-				F280F523275C81430004E0CA /* AdventFive.swift */,
-				F2ED6D04275E5B3A00B464D2 /* AdventSix.swift */,
-				F2ED6D18275FA39200B464D2 /* AdventSeven.swift */,
-				F2ED6D2227610CBF00B464D2 /* AdventEight.swift */,
-				F2FB49392762A1C300314E17 /* AdventNine.swift */,
+				F280F46F27580EA50004E0CA /* Advent01.swift */,
+				F280F4F7275911BA0004E0CA /* Advent02.swift */,
+				F280F50B275A63D00004E0CA /* Advent03.swift */,
+				F280F50F275BF7D10004E0CA /* Advent04.swift */,
+				F280F523275C81430004E0CA /* Advent05.swift */,
+				F2ED6D04275E5B3A00B464D2 /* Advent06.swift */,
+				F2ED6D18275FA39200B464D2 /* Advent07.swift */,
+				F2ED6D2227610CBF00B464D2 /* Advent08.swift */,
+				F2FB49392762A1C300314E17 /* Advent09.swift */,
+				F2B4DE792763ECED00E3A5A6 /* Advent10.swift */,
+				F2B4DE842764E9CE00E3A5A6 /* Advent11.swift */,
 			);
 			path = AdventSolutions;
 			sourceTree = "<group>";
@@ -270,6 +291,39 @@
 				F280F51E275C80F70004E0CA /* 5-input-2.txt */,
 			);
 			path = DayFive;
+			sourceTree = "<group>";
+		};
+		F2B4DE702763EC4D00E3A5A6 /* DayNine */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB49352762A19300314E17 /* 9-prompt-1.txt */,
+				F2FB49372762A19A00314E17 /* 9-prompt-2.txt */,
+				F2FB49312762A17700314E17 /* 9-input-1.txt */,
+				F2FB49332762A18300314E17 /* 9-input-2.txt */,
+			);
+			path = DayNine;
+			sourceTree = "<group>";
+		};
+		F2B4DE7B2764E88F00E3A5A6 /* DayTen */ = {
+			isa = PBXGroup;
+			children = (
+				F2B4DE712763ECB500E3A5A6 /* 10-input-1.txt */,
+				F2B4DE732763ECBE00E3A5A6 /* 10-input-2.txt */,
+				F2B4DE772763ECD000E3A5A6 /* 10-prompt-1.txt */,
+				F2B4DE752763ECC800E3A5A6 /* 10-prompt-2.txt */,
+			);
+			path = DayTen;
+			sourceTree = "<group>";
+		};
+		F2B4DE86276500EE00E3A5A6 /* DayEleven */ = {
+			isa = PBXGroup;
+			children = (
+				F2B4DE802764E9A100E3A5A6 /* 11-prompt-1.txt */,
+				F2B4DE7C2764E98200E3A5A6 /* 11-input-1.txt */,
+				F2B4DE822764E9AC00E3A5A6 /* 11-prompt-2.txt */,
+				F2B4DE7E2764E98C00E3A5A6 /* 11-input-2.txt */,
+			);
+			path = DayEleven;
 			sourceTree = "<group>";
 		};
 		F2ED6D0E275E5BBD00B464D2 /* DaySix */ = {
@@ -364,6 +418,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2ED6D16275FA35C00B464D2 /* 7-prompt-1.txt in Resources */,
+				F2B4DE782763ECD000E3A5A6 /* 10-prompt-1.txt in Resources */,
+				F2B4DE742763ECBE00E3A5A6 /* 10-input-2.txt in Resources */,
 				F280F45D2757CC530004E0CA /* Preview Assets.xcassets in Resources */,
 				F2ED6D1F27610C7100B464D2 /* 8-prompt-1.txt in Resources */,
 				F280F50E275A68380004E0CA /* 3-input-1.txt in Resources */,
@@ -386,9 +442,12 @@
 				F2ED6D07275E5B6800B464D2 /* 6-input-1.txt in Resources */,
 				F2ED6D2127610C7A00B464D2 /* 8-prompt-2.txt in Resources */,
 				F280F51D275C80EA0004E0CA /* 5-prompt-1.txt in Resources */,
+				F2B4DE812764E9A100E3A5A6 /* 11-prompt-1.txt in Resources */,
 				F280F517275BF8420004E0CA /* 4-prompt-1.txt in Resources */,
+				F2B4DE722763ECB500E3A5A6 /* 10-input-1.txt in Resources */,
 				F280F47527580F930004E0CA /* 1-input-2.txt in Resources */,
 				F280F507275A63880004E0CA /* 3-input-2.txt in Resources */,
+				F2B4DE7D2764E98200E3A5A6 /* 11-input-1.txt in Resources */,
 				F2ED6D0D275E5B9500B464D2 /* 6-prompt-2.txt in Resources */,
 				F280F515275BF8310004E0CA /* 4-input-2.txt in Resources */,
 				F280F45A2757CC530004E0CA /* Assets.xcassets in Resources */,
@@ -399,8 +458,11 @@
 				F2FB49362762A19300314E17 /* 9-prompt-1.txt in Resources */,
 				F2FB49342762A18300314E17 /* 9-input-2.txt in Resources */,
 				F2ED6D09275E5B7600B464D2 /* 6-input-2.txt in Resources */,
+				F2B4DE832764E9AC00E3A5A6 /* 11-prompt-2.txt in Resources */,
 				F280F51B275C80DD0004E0CA /* 5-input-1.txt in Resources */,
 				F280F47327580F700004E0CA /* 1-input-1.txt in Resources */,
+				F2B4DE7F2764E98C00E3A5A6 /* 11-input-2.txt in Resources */,
+				F2B4DE762763ECC800E3A5A6 /* 10-prompt-2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,19 +475,21 @@
 			files = (
 				F280F46E27580E4F0004E0CA /* Utilities.swift in Sources */,
 				F280F4582757CC4A0004E0CA /* AdventsList.swift in Sources */,
-				F280F50C275A63D00004E0CA /* AdventThree.swift in Sources */,
-				F280F524275C81430004E0CA /* AdventFive.swift in Sources */,
+				F280F50C275A63D00004E0CA /* Advent03.swift in Sources */,
+				F2B4DE852764E9CE00E3A5A6 /* Advent11.swift in Sources */,
+				F2B4DE7A2763ECED00E3A5A6 /* Advent10.swift in Sources */,
+				F280F524275C81430004E0CA /* Advent05.swift in Sources */,
 				F280F46A27580E040004E0CA /* Advent.swift in Sources */,
 				F280F4562757CC4A0004E0CA /* AdventOfCode2021App.swift in Sources */,
 				F280F50127593CB70004E0CA /* PromptView.swift in Sources */,
-				F2FB493A2762A1C300314E17 /* AdventNine.swift in Sources */,
-				F280F47027580EA50004E0CA /* AdventOne.swift in Sources */,
-				F2ED6D2327610CBF00B464D2 /* AdventEight.swift in Sources */,
-				F280F510275BF7D20004E0CA /* AdventFour.swift in Sources */,
+				F2FB493A2762A1C300314E17 /* Advent09.swift in Sources */,
+				F280F47027580EA50004E0CA /* Advent01.swift in Sources */,
+				F2ED6D2327610CBF00B464D2 /* Advent08.swift in Sources */,
+				F280F510275BF7D20004E0CA /* Advent04.swift in Sources */,
 				F280F46C27580E2B0004E0CA /* AdventGenerator.swift in Sources */,
-				F280F4F8275911BA0004E0CA /* AdventTwo.swift in Sources */,
-				F2ED6D19275FA39200B464D2 /* AdventSeven.swift in Sources */,
-				F2ED6D05275E5B3A00B464D2 /* AdventSix.swift in Sources */,
+				F280F4F8275911BA0004E0CA /* Advent02.swift in Sources */,
+				F2ED6D19275FA39200B464D2 /* Advent07.swift in Sources */,
+				F2ED6D05275E5B3A00B464D2 /* Advent06.swift in Sources */,
 				F280F4642757CC7D0004E0CA /* AdventSolver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

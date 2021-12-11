@@ -33,4 +33,10 @@ struct Utilities {
             .map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }
             .map { Int($0)! }
     }
+    static func getGrid(from rawInput: String) -> [[Int]] {
+        let lines = Utilities.getStrArray(fromNewlineSeparatedString: rawInput)
+        let grid = lines.map { Array($0).map { Int("\($0)")! } }
+        return grid
+    }
+
 }

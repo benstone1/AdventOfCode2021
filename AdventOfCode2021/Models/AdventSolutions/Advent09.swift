@@ -86,6 +86,5 @@ extension AdventSolver {
             let grid = lines.map { Array($0).map { Int("\($0)")! } }
             return grid
         }
-
     }
 }
