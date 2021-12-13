@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2604E992766E2080052121E /* 12-input-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2604E982766E2080052121E /* 12-input-1.txt */; };
+		F2604E9B2766E2120052121E /* 12-input-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2604E9A2766E2120052121E /* 12-input-2.txt */; };
+		F2604E9D2766E21C0052121E /* 12-prompt-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2604E9C2766E21C0052121E /* 12-prompt-1.txt */; };
+		F2604E9F2766E2270052121E /* 12-prompt-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2604E9E2766E2270052121E /* 12-prompt-2.txt */; };
+		F2604EA22766E25B0052121E /* Advent12.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2604EA12766E25B0052121E /* Advent12.swift */; };
 		F280F4562757CC4A0004E0CA /* AdventOfCode2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F4552757CC4A0004E0CA /* AdventOfCode2021App.swift */; };
 		F280F4582757CC4A0004E0CA /* AdventsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F4572757CC4A0004E0CA /* AdventsList.swift */; };
 		F280F45A2757CC530004E0CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F280F4592757CC530004E0CA /* Assets.xcassets */; };
@@ -74,6 +79,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2604E982766E2080052121E /* 12-input-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "12-input-1.txt"; sourceTree = "<group>"; };
+		F2604E9A2766E2120052121E /* 12-input-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "12-input-2.txt"; sourceTree = "<group>"; };
+		F2604E9C2766E21C0052121E /* 12-prompt-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "12-prompt-1.txt"; sourceTree = "<group>"; };
+		F2604E9E2766E2270052121E /* 12-prompt-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "12-prompt-2.txt"; sourceTree = "<group>"; };
+		F2604EA12766E25B0052121E /* Advent12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent12.swift; sourceTree = "<group>"; };
 		F280F4522757CC4A0004E0CA /* AdventOfCode2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F280F4552757CC4A0004E0CA /* AdventOfCode2021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode2021App.swift; sourceTree = "<group>"; };
 		F280F4572757CC4A0004E0CA /* AdventsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventsList.swift; sourceTree = "<group>"; };
@@ -152,6 +162,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F2604E952765261B0052121E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F280F4572757CC4A0004E0CA /* AdventsList.swift */,
+				F280F50027593CB70004E0CA /* PromptView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2604EA02766E23E0052121E /* DayTwelve */ = {
+			isa = PBXGroup;
+			children = (
+				F2604E9C2766E21C0052121E /* 12-prompt-1.txt */,
+				F2604E9E2766E2270052121E /* 12-prompt-2.txt */,
+				F2604E982766E2080052121E /* 12-input-1.txt */,
+				F2604E9A2766E2120052121E /* 12-input-2.txt */,
+			);
+			path = DayTwelve;
+			sourceTree = "<group>";
+		};
 		F280F4492757CC4A0004E0CA = {
 			isa = PBXGroup;
 			children = (
@@ -173,8 +203,7 @@
 			children = (
 				F280F4672757CD420004E0CA /* Inputs */,
 				F280F4552757CC4A0004E0CA /* AdventOfCode2021App.swift */,
-				F280F4572757CC4A0004E0CA /* AdventsList.swift */,
-				F280F50027593CB70004E0CA /* PromptView.swift */,
+				F2604E952765261B0052121E /* Views */,
 				F280F4682757CD560004E0CA /* Models */,
 				F280F4592757CC530004E0CA /* Assets.xcassets */,
 				F280F45B2757CC530004E0CA /* Preview Content */,
@@ -204,6 +233,7 @@
 				F2B4DE702763EC4D00E3A5A6 /* DayNine */,
 				F2B4DE7B2764E88F00E3A5A6 /* DayTen */,
 				F2B4DE86276500EE00E3A5A6 /* DayEleven */,
+				F2604EA02766E23E0052121E /* DayTwelve */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -234,6 +264,7 @@
 				F2FB49392762A1C300314E17 /* Advent09.swift */,
 				F2B4DE792763ECED00E3A5A6 /* Advent10.swift */,
 				F2B4DE842764E9CE00E3A5A6 /* Advent11.swift */,
+				F2604EA12766E25B0052121E /* Advent12.swift */,
 			);
 			path = AdventSolutions;
 			sourceTree = "<group>";
@@ -444,12 +475,14 @@
 				F280F51D275C80EA0004E0CA /* 5-prompt-1.txt in Resources */,
 				F2B4DE812764E9A100E3A5A6 /* 11-prompt-1.txt in Resources */,
 				F280F517275BF8420004E0CA /* 4-prompt-1.txt in Resources */,
+				F2604E9B2766E2120052121E /* 12-input-2.txt in Resources */,
 				F2B4DE722763ECB500E3A5A6 /* 10-input-1.txt in Resources */,
 				F280F47527580F930004E0CA /* 1-input-2.txt in Resources */,
 				F280F507275A63880004E0CA /* 3-input-2.txt in Resources */,
 				F2B4DE7D2764E98200E3A5A6 /* 11-input-1.txt in Resources */,
 				F2ED6D0D275E5B9500B464D2 /* 6-prompt-2.txt in Resources */,
 				F280F515275BF8310004E0CA /* 4-input-2.txt in Resources */,
+				F2604E992766E2080052121E /* 12-input-1.txt in Resources */,
 				F280F45A2757CC530004E0CA /* Assets.xcassets in Resources */,
 				F280F512275BF8110004E0CA /* 4-input-1.txt in Resources */,
 				F280F47727580FC00004E0CA /* 1-prompt-1.txt in Resources */,
@@ -457,11 +490,13 @@
 				F2ED6D1B27610C4F00B464D2 /* 8-input-1.txt in Resources */,
 				F2FB49362762A19300314E17 /* 9-prompt-1.txt in Resources */,
 				F2FB49342762A18300314E17 /* 9-input-2.txt in Resources */,
+				F2604E9D2766E21C0052121E /* 12-prompt-1.txt in Resources */,
 				F2ED6D09275E5B7600B464D2 /* 6-input-2.txt in Resources */,
 				F2B4DE832764E9AC00E3A5A6 /* 11-prompt-2.txt in Resources */,
 				F280F51B275C80DD0004E0CA /* 5-input-1.txt in Resources */,
 				F280F47327580F700004E0CA /* 1-input-1.txt in Resources */,
 				F2B4DE7F2764E98C00E3A5A6 /* 11-input-2.txt in Resources */,
+				F2604E9F2766E2270052121E /* 12-prompt-2.txt in Resources */,
 				F2B4DE762763ECC800E3A5A6 /* 10-prompt-2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +525,7 @@
 				F280F4F8275911BA0004E0CA /* Advent02.swift in Sources */,
 				F2ED6D19275FA39200B464D2 /* Advent07.swift in Sources */,
 				F2ED6D05275E5B3A00B464D2 /* Advent06.swift in Sources */,
+				F2604EA22766E25B0052121E /* Advent12.swift in Sources */,
 				F280F4642757CC7D0004E0CA /* AdventSolver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

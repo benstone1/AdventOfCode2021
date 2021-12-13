@@ -48,6 +48,7 @@ struct AdventSolver {
         9: AdventSolver(number: Nine()),
         10: AdventSolver(number: Ten()),
         11: AdventSolver(number: Eleven()),
+        12: AdventSolver(number: Twelve()),
     ]
 }
 
